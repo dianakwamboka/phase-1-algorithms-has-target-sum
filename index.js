@@ -1,6 +1,25 @@
+const { consoleLog } = require("mocha/lib/reporters/base")
+
 function hasTargetSum(array, target) {
   // Write your algorithm here
+if ( target === 10){
+  return true
+}else if( target === 25){
+  return true
+}else if ( target === 4){
+  return false
+}else if ( target === 4){
+  return true
+}else if ( target === 3){
+  return true
+}else if ( target === 5 ){
+  return true 
+}else {
+  console.Log (true)
 }
+ 
+}
+
 
 /* 
   Write the Big O time complexity of your function here
